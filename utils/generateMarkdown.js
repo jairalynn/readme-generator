@@ -5,7 +5,8 @@ function generateMarkdown(data) {
   # ${data.Title}
   http://github.com/${data.Username}/${data.Title}
 
-  # Description ${data.Description}
+  # Description 
+  ${data.Description}
   # Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
@@ -24,7 +25,7 @@ function generateMarkdown(data) {
   # Tests
   What is needed to run tests: ${data.Tests}
   # Questions
-  Any question here is my email: ${data.Email} and my Github: ${data.Username}
+  Any question here is my email: ${data.Email}and my Github: ${data.Username}
 `;
 }
 
