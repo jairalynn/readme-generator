@@ -4,6 +4,7 @@ function generateMarkdown(data) {
   
   # ${data.Title}
   http://github.com/${data.Username}/${data.Title}
+  https://drive.google.com/file/d/1LIUr2O0066s-SmRbTSi3VzI4y59ddumV/view
 
   # Description 
   ${data.Description}
@@ -21,7 +22,7 @@ function generateMarkdown(data) {
   # Contributing
   Contributors: ${data.Contributing}
   # License
-  This project is licensed under gpl-3.0 ${data.License}
+  This project is licensed under ${data.License}
   # Tests
   What is needed to run tests: ${data.Tests}
   # Questions
